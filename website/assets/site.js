@@ -89,6 +89,6 @@ const floatingInstall = document.querySelector('.floating-install');
 if (floatingInstall && 'IntersectionObserver' in window) {
   let heroVisible = true, installVisible = false;
   const update = () => { floatingInstall.hidden = heroVisible || installVisible; };
-  new IntersectionObserver(([entry]) => { heroVisible = entry.isIntersecting; update(); }).observe(document.querySelector('.hero'));
+  new IntersectionObserver(([entry]) => { heroVisible = entry.isIntersecting; update(); }).observe(document.querySelector('.hero .actions'));
   new IntersectionObserver(([entry]) => { installVisible = entry.isIntersecting; update(); }, {rootMargin: '0px 0px -80px 0px'}).observe(document.querySelector('#install'));
 }
