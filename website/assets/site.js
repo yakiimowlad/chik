@@ -101,3 +101,15 @@ if (agentStage && 'IntersectionObserver' in window) {
   new IntersectionObserver(([entry]) => { stageVisible = entry.isIntersecting; syncMotion(); }).observe(agentStage);
   document.addEventListener('visibilitychange', syncMotion);
 }
+
+// Short, content-specific icon sequences run only when their cards enter view.
+const moduleCards = [...document.querySelectorAll('.short-checks article')];
+if ('IntersectionObserver' in window) {
+  const moduleObserver = new IntersectionObserver(entries => {
+    for (const entry of entries) entry.target.dataset.motion = String(entry.isIntersecting);
+  }, {threshold: 0.2});
+  moduleCards.forEach(card => moduleObserver.observe(card));
+}
+const syncPageMotion = () => { document.documentElement.dataset.motionPaused = String(document.hidden); };
+document.addEventListener('visibilitychange', syncPageMotion);
+syncPageMotion();
