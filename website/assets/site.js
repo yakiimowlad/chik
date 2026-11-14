@@ -92,3 +92,12 @@ if (floatingInstall && 'IntersectionObserver' in window) {
   new IntersectionObserver(([entry]) => { heroVisible = entry.isIntersecting; update(); }).observe(document.querySelector('.hero .actions'));
   new IntersectionObserver(([entry]) => { installVisible = entry.isIntersecting; update(); }, {rootMargin: '0px 0px -80px 0px'}).observe(document.querySelector('#install'));
 }
+
+// Keep the decorative scene asleep outside the viewport or when the tab is hidden.
+const agentStage = document.querySelector('.agent-stage');
+if (agentStage && 'IntersectionObserver' in window) {
+  let stageVisible = true;
+  const syncMotion = () => { agentStage.dataset.offscreen = String(!stageVisible || document.hidden); };
+  new IntersectionObserver(([entry]) => { stageVisible = entry.isIntersecting; syncMotion(); }).observe(agentStage);
+  document.addEventListener('visibilitychange', syncMotion);
+}

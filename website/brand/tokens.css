@@ -1,26 +1,15 @@
-/* CHIK 1.0 — public semantic tokens. 4px rhythm; optical exceptions: 1px rules, 2px focus gaps. */
+/* CHIK — rounded workspace. Neutral ink, electric blue and mandarin. */
 :root {
-  --ink: #20271f;
-  --paper: #f4f3ec;
-  --white: #ffffff;
-  --citron: #d5f867;
-  --citron-hover: #c4e753;
-  --secondary: #30392c;
-  --line: #bec3b6;
-  --soft: #e7eadf;
-  --inverse-secondary: #e8ebe1;
-  --control-line: #69735f;
-  --success: #31552a;
-  --error: #92391e;
-  --on-accent: var(--ink);
-  --text: var(--ink);
-  --surface: var(--paper);
-  --focus: #31552a;
-  --font: 'Golos Text', Arial, sans-serif;
-  --mono: 'DejaVu Sans Mono', 'SFMono-Regular', Consolas, monospace;
-  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px;
-  --space-5: 20px; --space-6: 24px; --space-8: 32px; --space-10: 40px;
-  --space-12: 48px; --space-16: 64px; --space-20: 80px; --space-24: 96px;
-  --radius-control: 8px; --radius-panel: 16px;
-  --duration: 160ms; --ease: cubic-bezier(.22,1,.36,1);
+ --ink:#142044; --paper:#f4f6ff; --white:#ffffff;
+ --blue:#2f4ce8; --blue-deep:#172858; --blue-soft:#e6ecff;
+ --accent:#ffc5a5; --accent-hover:#ffd3ba; --orange:#ff996b; --sky:#9bddff; --sky-ink:#215b83;
+ --secondary:#2c3b5d; --inverse-secondary:#eef2ff; --line:#d0d8f0;
+ --soft:#e9eeff; --control-line:#7180a4; --success:#205e44; --error:#9c302a;
+ --text:var(--ink); --surface:var(--paper); --focus:#2542d6;
+ --on-accent:var(--ink); --citron:var(--accent); --citron-hover:var(--accent-hover);
+ --font:'Golos Text',Arial,sans-serif; --mono:'SFMono-Regular',Consolas,monospace;
+ --space-1:4px; --space-2:8px; --space-3:12px; --space-4:16px; --space-6:24px;
+ --space-8:32px; --space-10:40px; --space-12:48px; --space-16:64px;
+ --radius-control:999px; --radius-card:32px; --radius-panel:40px;
+ --ease:cubic-bezier(.22,1,.36,1); --duration:180ms;
 }
