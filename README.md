@@ -11,7 +11,7 @@
 Подходит для первого личного лендинга и для проекта с серьёзными требованиями.
 Вы задаёте намерение и принимаете результат; ЧИК задаёт порядок работы.
 
-[Скачать скилл](https://chik-design-skill.yakiimowlad.chatgpt.site/chik-skill.zip) · [Сайт](https://chik-design-skill.yakiimowlad.chatgpt.site) · [Все способы установки](docs/INSTALL.md)
+[Скачать скилл](https://github.com/yakiimowlad/chik/releases/latest/download/chik-skill.zip) · [Сайт](https://chik-design-skill.yakiimowlad.chatgpt.site) · [Все способы установки](docs/INSTALL.md)
 
 ## Начать с архива
 

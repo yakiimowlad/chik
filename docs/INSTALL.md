@@ -1,6 +1,6 @@
 # Как подключить ЧИК
 
-[Скачать готовый скилл](https://chik-design-skill.yakiimowlad.chatgpt.site/chik-skill.zip).
+[Скачать готовый скилл](https://github.com/yakiimowlad/chik/releases/latest/download/chik-skill.zip).
 Внутри один навык `chik`, со всеми проверками и CHIK Voice. Терминал для загрузки в приложение не нужен.
 
 ## Самое простое — начать с архива
@@ -52,7 +52,7 @@ bash install.sh claude
 По умолчанию устанавливается только ЧИК. Сеть после клонирования не нужна.
 Установщик сохраняет прежнюю версию в резервной папке и не меняет ранее установленный Unslop.
 Если отдельно нужен оригинальный скилл, добавьте `--with-unslop`.
-Можно скачать [комплект с установщиком](https://chik-design-skill.yakiimowlad.chatgpt.site/chik-installer.zip)
+Можно скачать [комплект с установщиком](https://github.com/yakiimowlad/chik/releases/latest/download/chik-installer.zip)
 и запустить ту же команду из распакованной папки вместо клонирования.
 
 Пути: Codex — `~/.agents/skills/chik`, Claude Code — `~/.claude/skills/chik`.
