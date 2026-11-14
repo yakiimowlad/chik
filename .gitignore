@@ -1,0 +1,5 @@
+.DS_Store
+node_modules/
+.openai/
+website/*.zip
+website/SHA256SUMS.txt

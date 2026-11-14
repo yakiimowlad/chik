@@ -1,0 +1,26 @@
+/* CHIK 1.0 — public semantic tokens. 4px rhythm; optical exceptions: 1px rules, 2px focus gaps. */
+:root {
+  --ink: #20271f;
+  --paper: #f4f3ec;
+  --white: #ffffff;
+  --citron: #d5f867;
+  --citron-hover: #c4e753;
+  --secondary: #30392c;
+  --line: #bec3b6;
+  --soft: #e7eadf;
+  --inverse-secondary: #e8ebe1;
+  --control-line: #69735f;
+  --success: #31552a;
+  --error: #92391e;
+  --on-accent: var(--ink);
+  --text: var(--ink);
+  --surface: var(--paper);
+  --focus: #31552a;
+  --font: 'Golos Text', Arial, sans-serif;
+  --mono: 'DejaVu Sans Mono', 'SFMono-Regular', Consolas, monospace;
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px;
+  --space-5: 20px; --space-6: 24px; --space-8: 32px; --space-10: 40px;
+  --space-12: 48px; --space-16: 64px; --space-20: 80px; --space-24: 96px;
+  --radius-control: 8px; --radius-panel: 16px;
+  --duration: 160ms; --ease: cubic-bezier(.22,1,.36,1);
+}

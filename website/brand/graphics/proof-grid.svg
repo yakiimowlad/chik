@@ -1,0 +1,1 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-label="Сетка с шагом 16"><title>Сетка с шагом 16</title><defs><pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#20271F" stroke-opacity=".12"/></pattern></defs><path fill="url(#grid)" d="M0 0H320V320H0Z"/></svg>
