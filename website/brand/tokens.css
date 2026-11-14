@@ -1,13 +1,13 @@
-/* CHIK — rounded workspace. Neutral ink, electric blue and mandarin. */
+/* CHIK — rounded workspace. Ink, cobalt and solar yellow. */
 :root {
- --ink:#142044; --paper:#f4f6ff; --white:#ffffff;
- --blue:#2f4ce8; --blue-deep:#172858; --blue-soft:#e6ecff;
- --accent:#ffc5a5; --accent-hover:#ffd3ba; --orange:#ff996b; --sky:#9bddff; --sky-ink:#215b83;
- --secondary:#2c3b5d; --inverse-secondary:#eef2ff; --line:#d0d8f0;
- --soft:#e9eeff; --control-line:#7180a4; --success:#205e44; --error:#9c302a;
- --text:var(--ink); --surface:var(--paper); --focus:#2542d6;
+ --ink:#10182b; --paper:#f7f8fa; --white:#ffffff;
+ --blue:#2345ee; --blue-deep:#111c38; --blue-soft:#ebefff;
+ --accent:#ffe05a; --accent-hover:#ffe982; --orange:#ffe05a; --sky:#ffffff; --sky-ink:#10182b;
+ --secondary:#303a4e; --inverse-secondary:#f3f5fc; --line:#dce0e8;
+ --soft:#edf0f5; --control-line:#7180a4; --success:#205e44; --error:#9c302a;
+ --text:var(--ink); --surface:var(--paper); --focus:#2345ee;
  --on-accent:var(--ink); --citron:var(--accent); --citron-hover:var(--accent-hover);
- --font:'Golos Text',Arial,sans-serif; --mono:'SFMono-Regular',Consolas,monospace;
+ --font:'Onest',Arial,sans-serif; --mono:'SFMono-Regular',Consolas,monospace;
  --space-1:4px; --space-2:8px; --space-3:12px; --space-4:16px; --space-6:24px;
  --space-8:32px; --space-10:40px; --space-12:48px; --space-16:64px;
  --radius-control:999px; --radius-card:32px; --radius-panel:40px;
